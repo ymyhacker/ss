@@ -1,0 +1,21 @@
+Lenet test-score acc 0.9858
+       
+Cnn1-1 增加卷积层  acc 0.9805
+		
+cnn1-2 增加drop  acc 0.9849
+
+cnn1-3 增加全连接层 acc 0.9819
+
+cnn2-1 卷积核尺寸 换为3*3 acc 0.9825
+cnn2-2 卷积核数量 c1 6改为8 acc 0.9857
+cnn2-3 卷积步长
+
+cnn3-1 卷积层权值初始化 zero acc 0.9728
+cnn3-2 卷积层权值初始化 ones acc 0.0892
+cnn3-3 		RandomNormal acc  0.9841
+cnn3-4 		RandomUniform acc 0.9838
+
+cnn4-1 激活函数 tanh acc 0.9889
+cnn4-2		reul acc 0.9844
+cnn4-3         softplus acc 0.9862
+
